@@ -4,9 +4,8 @@ function [x, moveflag] = GD_PutM(x, P, Ui, d, r, Ftype, opts)
 % data are the sampled data, denoted by X0 in the paper
 %
 % xiayq @ 8/14/2019
-%
 % xiayq@zju.edu.cn
-% refered to Yao, Z and Xia, Y. (2019). Manifold Fitting under Unbounded Noise, arXiv:1909.10228
+% refered to Z. Yao and Y. Xia, Manifold Fitting under Unbounded Noise, arXiv:1909.10228
 
 
 moveflag = true;

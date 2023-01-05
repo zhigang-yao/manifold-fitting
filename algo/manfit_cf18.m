@@ -1,8 +1,4 @@
 function [Mout, info] = manfit_cf18(data, d, r, X, opts)
-% This code is to implement the method in 
-% Fefferman,C.,Ivanov,S.,Kurylev,Y.,Lassas,M.andNarayanan,H.(2018). Fitting a Putative Manifold to Noisy Data.
-% Proceedings of Machine Learning Research(75) 688-720. PMLR.
-%
 % input : 
 % data - dataset
 % d    - dimension of manifold
@@ -18,13 +14,16 @@ function [Mout, info] = manfit_cf18(data, d, r, X, opts)
 % Mout - output manifold
 % info - informations of algorithm
 %
-% xiayq @ 8/18/2019
-%
-% xiayq@zju.edu.cn
-% refered to Yao, Z and Xia, Y. (2019). Manifold Fitting under Unbounded Noise, arXiv:1909.10228
+% xiayq @ 04/21/2022
+%       modify the comments
+%       replace 'cf2' by 'cf'
+% xiayq @ 08/18/2019
+%       first version
+% xiayq0121@zufe.edu.cn
+% refered to Z. Yao and Y. Xia, Manifold Fitting under Unbounded Noise, arXiv:1909.10228
 
 t1 = clock;
-Ui = getUi(data, data, d, r, 'cf2');
+Ui = getUi(data, data, d, r, 'cf');
 t2 = clock;
 fprintf('get Ui cost %.1f seconds\n', etime(t2,t1));
 

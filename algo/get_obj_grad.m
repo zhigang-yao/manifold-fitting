@@ -19,9 +19,10 @@ function [flag, f, G] = get_obj_grad(x, P, Ui, d, r, Ftype, beta)
 % D : dimension of the ambient space
 %
 % xiayq @ 8/14/2019
-%
 % xiayq@zju.edu.cn
-% refered to Yao, Z and Xia, Y. (2019). Manifold Fitting under Unbounded Noise, arXiv:1909.10228
+% refered to Z. Yao and Y. Xia, Manifold Fitting under Unbounded Noise, arXiv:1909.10228
+
+
 
 D = size(P, 1);
 

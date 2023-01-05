@@ -14,13 +14,17 @@ function [Mout, info] = manfit_our(data, d, r, X, opts)
 % Mout - output manifold
 % info - informations of algorithm
 %
-% xiayq @ 8/14/2019
-%
-% xiayq@zju.edu.cn
-% refered to Yao, Z and Xia, Y. (2019). Manifold Fitting under Unbounded Noise, arXiv:1909.10228
+% xiayq @ 04/21/2022
+%       modify comments
+%       replace r by 2r in getUi
+% xiayq @ 08/14/2019
+%       first version
+% xiayq0121@zufe.edu.cn
+% refered to Z. Yao and Y. Xia, Manifold Fitting under Unbounded Noise, arXiv:1909.10228
+
 
 t1 = clock;
-Ui = getUi(data, data, d, r, 'pca');
+Ui = getUi(data, data, d, 2*r, 'pca');
 t2 = clock;
 fprintf('get Ui cost %.1f seconds\n', etime(t2,t1));
 
