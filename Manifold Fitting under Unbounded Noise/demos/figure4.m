@@ -1,6 +1,6 @@
 % xiayq @ 12/10/2022
 % xiayq0121@zufe.edu.cn
-% plot figure5 in
+% plot figure4 in
 % Z. Yao and Y. Xia, Manifold Fitting under Unbounded Noise, arXiv:1909.10228
 
 %% circle
