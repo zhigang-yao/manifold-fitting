@@ -1,6 +1,6 @@
 % xiayq @ 12/11/2022
 % xiayq0121@zufe.edu.cn
-% plot figure7 in
+% plot figure6 in
 % Z. Yao and Y. Xia, Manifold Fitting under Unbounded Noise, arXiv:1909.10228
 
 % n = 500 or 800
