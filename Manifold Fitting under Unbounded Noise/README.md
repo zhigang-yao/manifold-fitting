@@ -1,7 +1,7 @@
 # manifold-fitting
 
 This is a MATLAB implementation of  our manifold fitting method, as described in our paper
-	Yao, Z. and Xia, Y. (2019). [Manifold Fitting under Unbounded Noise](https://arxiv.org/abs/1909.10228?context=stat), arXiv:1909.10228
+	Yao, Z. and Xia, Y. (2019). [Manifold Fitting under Unbounded Noise](https://arxiv.org/abs/1909.10228v2?context=stat), arXiv:1909.10228v2
 
 We also implemented related methods, as described in
 
