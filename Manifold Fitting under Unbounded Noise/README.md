@@ -1,6 +1,6 @@
 # manifold-fitting
 
-This is a repository of our manifold fitting method, implemented with Python and Matlab, as described in our paper
+This is a repository of our manifold fitting method, implemented with MATLAB and Python, as described in our paper
 Yao, Z. and Xia, Y. (2019). [Manifold Fitting under Unbounded Noise](https://arxiv.org/abs/1909.10228v2?context=stat), arXiv:1909.10228v2
 
 We also implemented related methods, as described in
