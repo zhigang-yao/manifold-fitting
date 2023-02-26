@@ -11,6 +11,8 @@ We also implemented related methods, as described in
 ## run the demo
 
 ```python
+python addpaths.py
+python demo_circle.py
 
 ```
 
