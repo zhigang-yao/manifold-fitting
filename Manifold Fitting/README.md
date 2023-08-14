@@ -1,8 +1,8 @@
 # Manifold Fitting
 
 This is a repository of our manifold fitting method, implemented with MATLAB and Python, as described in our paper
-Yao, Z., Su, J, and Li, B. (2023). [Manifold Fitting](https://arxiv.org/abs/2304.07680), arXiv:2304.07680
-
+Yao, Z., Su, J., Li, B., and Yau, S. T (2023). [Manifold Fitting](https://zhigang-yao.github.io/manifold-fitting-arxiv.pdf).
+<!-- 
 ## cite
 
 Please cite our paper if you use this code in your own work:
@@ -16,5 +16,5 @@ Please cite our paper if you use this code in your own work:
       archivePrefix={arXiv},
       primaryClass={math.ST}
 }
-```
+``` -->
 
