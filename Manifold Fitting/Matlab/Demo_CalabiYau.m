@@ -1,6 +1,6 @@
 % bjli @ Feb 11 2023.
 % bjlistat@nus.edu.sg
-% refered to Z. Yao, J. Su, and B. Li, Manifold Fitting: An invitation to statistics
+% refered to Z. Yao, J. Su, and B. Li, Manifold Fitting
 
 
 Jobs = {
