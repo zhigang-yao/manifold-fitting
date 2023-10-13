@@ -3,6 +3,8 @@ function Ui = getUi(P, data, d, r, dr_type)
 % each column of P is a point in X1, the epsilon-net(cf18)
 % data is the entire dataset
 %
+% xiayq @ 10/13/2022
+%       modify svd to svds, which speeds up the algorithm when D >> d
 % xiayq @ 04/21/2022
 %       modify the comments
 %       remove 'cf1', replace 'cf2' by 'cf'
@@ -36,8 +38,9 @@ for i = 1 : N
 %             P0 = selectNeighbor(P0,p,d);
 %             U = orth(bsxfun(@minus,P0,p));
         case 'pca'
-            [U,~,~] = svd(bsxfun(@minus, P0, p));
-            U = U(:,1:d);
+            %[U,~,~] = svd(bsxfun(@minus, P0, p));
+            %U = U(:,1:d);
+            [U,~,~] = svds(bsxfun(@minus, P0, p),d,'largest'); % xiayq 10/13/2023
         case 'cf'
             % bsxfun(@minus,P0,p) takes p as the origin
             P0 = selectNeighbor(bsxfun(@minus,P0,p),zeros(size(p)),d);
